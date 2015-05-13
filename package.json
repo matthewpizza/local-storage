@@ -1,0 +1,22 @@
+{
+  "name": "local-storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "local-storage.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-js": "uglifyjs local-storage.js -o local-storage.min.js -c -m"
+  },
+  "repository": {
+    "type": "git",
+    "url" : "https://github.com/matthewspencer/local-storage.git"
+  },
+  "author": {
+    "name": "Matthew Spencer",
+    "url": "https://matthewspencer.me"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "uglify-js": "^2.4.20"
+  }
+}
